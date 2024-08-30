@@ -1,0 +1,62 @@
+body{
+    overflow: hidden !important;
+}
+.horizontal-layout.navbar-sticky .app-content {
+    padding: 0px !important
+}
+.border-bottom{
+    border-bottom: 1px solid #dedede !important;
+}
+.pt-120{
+    padding-top: 120px;
+}
+
+.input-group:not(.bootstrap-touchspin):focus-within .form-control, .input-group:not(.bootstrap-touchspin):focus-within .input-group-text {
+    border-color: #2c5486  !important;
+    box-shadow: none;
+}
+.errormsg {
+    display: none;
+    width: 100%;
+    margin-bottom: -25px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.errors {
+    color: #bd0909;
+    font-weight: 600;
+    font-size: 12px;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: 100vh;
+}
+html .pace .pace-progress {
+    background: #2c5486;
+    display: none;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .pt-120{
+        padding-top: 0px;
+    }
+    .img-fluid, .img-thumbnail {
+      height: auto;
+    }
+    .mb-110{
+        margin-bottom: 110px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+    .pt-120{
+        padding-top: 0px;
+    }
+    .img-fluid, .img-thumbnail {
+        height: auto;
+      }
+    .mb-110{
+        margin-bottom: 110px;
+    }
+}

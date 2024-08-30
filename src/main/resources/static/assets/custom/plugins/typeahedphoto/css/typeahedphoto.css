@@ -1,0 +1,145 @@
+/* .typeahead {
+    padding: .375rem .55rem;
+    width: 100% !important;
+    background-color: #fff !important;
+    font-size: 13px;
+    height: 27px;
+} */
+
+.typeahead {
+    padding: .375rem .55rem;
+    width: 100% !important;
+    background-color: #fff !important;
+    font-size: 14px;
+    height: 27px;
+}
+
+span.twitter-typeahead {
+    width: 100%;
+}
+
+.empty-message {
+    color: red;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.tt-menu {
+    display: block;
+    width: 100% !important;
+    background-color: #fff;
+    border: unset !important;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, .2); */
+    max-height: 200px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.11);
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.tt-suggestion {
+    padding: 3px 10px;
+    font-size: 13px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.tt-dataset.tt-dataset-states {
+    width: 100%;
+}
+
+.man-section {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+    background: #f7f7f7;
+}
+
+.image-section {
+    width: 9%;
+    float: left;
+    display: table;
+}
+
+.image-section img {
+    width: 45px;
+    height: 45px;
+    /* border: 1px solid #000; */
+    border: 0px solid #eee;
+    display: table-cell;
+    vertical-align: middle;
+    /* margin: 6px 0px 5px -9px; */
+    margin: 3px 0px 3px 0px;
+}
+
+.description-section {
+    float: left;
+    width: 100%;
+}
+
+.description-section h1 {
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px 5px;
+    font-size: 13px;
+    /* line-height: 24px; */
+    line-height: 16px;
+    color: #606060;
+    text-transform: normal;
+    white-space: normal !important;
+}
+
+.description-section p {
+    margin: 0px;
+    padding: 0px 1px 0px 8px;
+    font-size: 12px;
+    color: #7d7f80;
+    line-height: 15px;
+}
+
+.description-section span {
+    padding: 5px;
+    font-size: 13px;
+    color: #a09999;
+    text-transform: normal;
+    font-weight: 600;
+}
+
+.more-section {
+    position: absolute;
+    bottom: 7px;
+    right: 16px;
+}
+
+.more-section a {
+    text-decoration: none;
+}
+
+.more-section button {
+    border: unset;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #5D4C46 !important;
+}
+
+.mobtypeahead {
+    float: right;
+    font-size: 12px;
+    color: #0380bf !important;
+}
+
+.padding1 {
+    padding: 1px !important;
+}
+
+.tt-suggestion:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #f7f7f7;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #000000;
+    background-color: #f7f7f7;
+}
